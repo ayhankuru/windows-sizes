@@ -1,0 +1,28 @@
+{
+  "name": "windows-sizes",
+  "version": "0.1.0",
+  "description": "windows screen sizes",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "windows-sizes": "./bin/windows-sizes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayhankuru/windows-sizes"
+  },
+  "keywords": [
+    "windows",
+    "screen",
+    "sizes"
+  ],
+  "preferGlobal":true,
+  "author": "Ayhan Kuru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayhankuru/windows-sizes/issues"
+  },
+  "homepage": "https://github.com/ayhankuru/windows-sizes"
+}

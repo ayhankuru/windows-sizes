@@ -1,0 +1,12 @@
+#! /usr/bin/env iojs
+
+var sizes = require('../lib/index.js');
+	
+sizes(function(err,sizes){
+	if(err){
+		console.log(err);
+	}else{
+		if(sizes.length>1) console.log(sizes);
+		else console.log(sizes[0]);
+	}
+});
