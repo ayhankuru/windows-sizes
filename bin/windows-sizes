@@ -6,7 +6,7 @@ sizes(function(err,sizes){
 	if(err){
 		console.log(err);
 	}else{
-		if(sizes.length>1) console.log(sizes);
-		else console.log(sizes[0]);
+		if(sizes.length>1) process.stdout.write(JSON.stringify(sizes)+ '\n');
+		else  process.stdout.write(JSON.stringify(sizes[0])+ '\n');
 	}
 });

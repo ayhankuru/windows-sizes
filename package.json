@@ -1,6 +1,6 @@
 {
   "name": "windows-sizes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "windows screen sizes",
   "main": "lib/index.js",
   "scripts": {
